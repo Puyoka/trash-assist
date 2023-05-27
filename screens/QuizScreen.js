@@ -25,19 +25,19 @@ const QuizScreen = ({ route }) => {
   }
 
   const questions = [
-    "Mi a fővárosa Magyarországnak?",
-    "Melyik évben fedezték fel Amerikát?",
-    "Ki festette a Mona Lisát?",
-    "Milyen színű a sárgarépa?",
-    "Hány nap van egy szökőévben?",
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
   ];
 
   const answers = [
-    ["Budapest", "Bécs"],
-    ["1492", "1776"],
-    ["Leonardo da Vinci", "Pablo Picasso"],
-    ["Narancssárga", "Kék"],
-    ["366", "365"],
+    ["a1", "a2"],
+    ["a1", "a2"],
+    ["a1", "a2"],
+    ["a1", "a2"],
+    ["a1", "a2"],
   ];
 
   const correctAnswers = [0, 0, 0, 0, 1];
